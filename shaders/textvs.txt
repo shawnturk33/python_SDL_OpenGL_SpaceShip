@@ -1,0 +1,8 @@
+layout(location=0) in vec2 position;
+out vec2 v_texcoord;
+void main(){	
+v_texcoord = position;
+vec2 pix = vec2(textPosInPixels.x + position.x*textQuadSizeInPixels.x,
+ textPosInPixels.y+(position.y-1)*textQuadSizeInPixels.y);
+gl_Position.xy = vec2(-1) +2.0 *(pix*screenSize.zw);
+gl_Position.zw=vec2(-1,1);}

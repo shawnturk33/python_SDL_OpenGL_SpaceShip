@@ -1,0 +1,15 @@
+vec2 translation;
+vec2 textQuadSizeInPixels;
+vec2 textPosInPixels;
+vec4 screenSize;
+float alphaFactor;
+mat4 worldMatrix;
+mat4 viewMatrix;
+mat4 projMatrix;
+vec3 diffuse;
+vec3 eyePos;
+float shininess;
+vec3 specular;
+#define MAX_LIGHTS 1
+vec4 lightPositions[MAX_LIGHTS];//location + directional flag
+vec4 lightColors[MAX_LIGHTS]; //color(rgb only)

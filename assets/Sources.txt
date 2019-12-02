@@ -1,0 +1,7 @@
+Roboto-Black = free ttf from google fonts
+nebula photo from https://www.eso.org/public/images/eso1208a/
+ship textures were based off this http://pixelartmaker.com/art/8065886abb17738
+	and then edited in color and orientation to create multiple different textures
+pew.ogg retrieved from freesound.org https://freesound.org/s/325356/
+bullet was self made
+boss2.obj from Jim Hudson, Shawnee State Professor Extraordinaire

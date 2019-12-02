@@ -1,0 +1,11 @@
+layout(binding=0) uniform sampler2DArray tex;
+in vec2 v_texcoord;
+out vec4 color;
+void main(){
+float temp;
+temp = 1-v_texcoord.t;
+vec4 p = texture(tex,vec3(v_texcoord.s, temp,0));
+if (p.a<0.01)discard;
+color.rgb=vec3(p.a);
+color.a=1.0;
+}
